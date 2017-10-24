@@ -1,4 +1,4 @@
-# douban_spider
+# Douban_spider
 Spider to obtain data from www.douban.com
 
 # python get_link.py 
