@@ -17,7 +17,7 @@ cursor = db.cursor()
 
 data = []
 tag = ['origin:','publisher:','subtitle:','author:','url:','series:','image:','title','binding:','rating:','translator:','tag:','author_ab:','year:','content:','ISBN:','price:','page:']
-fh = open ('output.1')
+fh = open ('output.txt')
 lines = fh.readlines()
 
 c=''
