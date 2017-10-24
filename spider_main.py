@@ -22,7 +22,7 @@ class SpiderMain(object):
 		self.outputer = html_outputer.HtmlOutputer()
 		self.links = set()
 
-		input1 = open ('./log/log.68','r')
+		input1 = open ('./link_set.txt','r')
 		for line in input1:
 			line=line.strip('\n')
 			self.links.add(line)
@@ -46,6 +46,6 @@ class SpiderMain(object):
 
 if __name__ == '__main__':
 	#root_url = "https://baike.baidu.com/item/Python"
-	root_url = "https://book.douban.com/tag/?view=type&icn=index-sorttags-all"
+	#root_url = "https://book.douban.com/tag/?view=type&icn=index-sorttags-all"
 	obj_spider = SpiderMain()
 	obj_spider.craw()
