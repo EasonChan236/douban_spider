@@ -10,7 +10,7 @@ class HtmlOutputer(object):
         self.datas.append(data)
 
     def output_html(self):
-        fout = open('output.fail.2', 'wb+')
+        fout = open('output.txt', 'wb+')
 	fout.write('---------------------------\n')
 	for data in self.datas:
 		for k in data.keys():
