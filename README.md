@@ -14,3 +14,6 @@ Spider to obtain data from www.douban.com
   Read each line of file we created last step and get the link to information page.
   Parsed the page information using BeautifulSoup and regular expression.
   Output the information of each book to a file.
+  
+# python store2db.py
+  Store the book information to MySQL database
