@@ -39,7 +39,7 @@ class Get(object):
 {'User-Agent': 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)'}]
                         #header = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36'}
                         count = 0
-                        url = link + '?start='+str(count)+'&type=T'
+                        url = link + '?start='+str(count)+'&type=T' #type can change from T, R and S, with respect to different ranking method for books
                         while (count < 1000 ):
                                 #print "page: " + str(count/20 + 1)
 				print("page: " +unicode(str(count/20 + 1))+"\n")
@@ -66,7 +66,7 @@ class Get(object):
                                 count = count + 20
                                 url = link + '?start='+str(count)+'&type=T'
                                 #print len(self.links)
-                fout = open('output0.txt', 'w')
+                fout = open('link_set.txt', 'w')
 
                 for link in self.links:
                         fout.write(link + "\n")
