@@ -17,3 +17,6 @@ Spider to obtain data from www.douban.com
   
 # python store2db.py
   Store the book information to MySQL database
+
+## Author
+* **Pengyu Chen** - [Github](https://github.com/EasonChan236)
